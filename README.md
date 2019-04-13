@@ -31,7 +31,7 @@ Please use especially for ACR_NAME **your unique name** - it is unique in whole 
 # variables
 export RESOURCE_GROUP=JTEST
 export LOCATION="northeurope"
-export ACR_NAME=valdaakssec001
+export ACR_NAME=tomasslaviksec001
 export AKS_CLUSTER_NAME=myaks
 
 # create resource group
