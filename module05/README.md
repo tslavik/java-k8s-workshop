@@ -308,3 +308,4 @@ steps:
      azureContainerRegistry: $(azureContainerRegistry)
      imageName: $(Build.Repository.Name):$(Build.BuildId)
 ```
+test flux
