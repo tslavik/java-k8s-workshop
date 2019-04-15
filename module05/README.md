@@ -127,7 +127,7 @@ kubectl apply -f https://raw.githubusercontent.com/weaveworks/flux/master/deploy
 helm upgrade -i flux \
 --set helmOperator.create=true \
 --set helmOperator.createCRD=false \
---set git.url=git@github.com:valda-z/java-k8s-workshop-flux.git \
+--set git.url=git@github.com:tslavik/java-k8s-workshop-flux.git \
 --namespace flux \
 weaveworks/flux
 ```
